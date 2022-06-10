@@ -41,7 +41,7 @@ void ofApp::draw(){
     ofEnableAntiAliasing();
     for(int i=0; i< rects.size(); i++){
         ofFill();
-        ofSetColor(155, 155, 255, 30);
+        ofSetColor(255, 155, 55, 50);
         ofDrawRectangle(ratiox*rects[i].x, ratioy*rects[i].y,
                         ratiox*rects[i].width, ratioy*rects[i].height);
         ofNoFill();
